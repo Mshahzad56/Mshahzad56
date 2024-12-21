@@ -12,7 +12,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # Explicitly specify the current stable version of Ubuntu
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04.4 LTS
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
