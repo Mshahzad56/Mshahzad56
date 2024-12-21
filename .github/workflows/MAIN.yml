@@ -8,16 +8,15 @@ on:
   # Allows manual triggering of the workflow
   workflow_dispatch:
 
-# The sequence of runs in this workflow
 jobs:
   # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    # Explicitly specify the current stable version of Ubuntu
+    runs-on: ubuntu-22.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks out the repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks out the repository under $GITHUB_WORKSPACE
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -37,7 +36,7 @@ jobs:
 
       # Push the generated files to the repository
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output
