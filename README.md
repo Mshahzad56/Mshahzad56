@@ -5,7 +5,10 @@
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mshahzad56&label=Profile%20views&color=0e75b6&style=flat" alt="mshahzad56" /> </p>
-
+<p align="left">  
+  <a href="https://www.upwork.com/freelancers/~019409a4ef9e9e9b41"><img src="https://github-profile-trophy.vercel.app/?username=mshahzad56" alt="Upwork Profile" />  
+  </a>  
+</p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mshahzad56" alt="mshahzad56" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/maliksh07747401" target="blank"><img src="https://img.shields.io/twitter/follow/maliksh07747401?logo=twitter&style=for-the-badge" alt="maliksh07747401" /></a> </p>
